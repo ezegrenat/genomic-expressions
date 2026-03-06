@@ -22,7 +22,7 @@ Clasificadores supervisado para predecir si una lesión pre-tumoral tiene buen o
 |-----------|---------|
 | Instancias | 500 muestras de pacientes con lesiones pre-tumorales |
 | Features | 200  |
-| Target | Binario: `1` = buen pronóstico (sin recaída) . `0` = mal pronóstico (con recaída) |
+| Target | Binario: `1` = buen pronóstico (sin recaída) y `0` = mal pronóstico (con recaída) |
 | Desbalanceo | 349 instancias clase 0 y 151 instancias clase 1 |
 
 
@@ -67,10 +67,10 @@ Entrenamos con 200 árboles y exploramos el hiperparámetro `max_features` media
 
 | Modelo | Configuración | AUC-ROC (validación) |
 |--------|--------------|----------------------|
-| Decision Tree | optimizado (`max_depth=5`, `criterion=log_loss`, `max_features=0.36`) | ~0.58 |
+| Decision Tree | optimizado (`max_depth=5`, `criterion=log_loss` y `max_features=0.36`) | ~0.58 |
 | Decision Tree | default (`max_depth=3`) | ~0.58 |
-| KNN | optimizado (`weights=distance`, `n_neighbors=17`, `metric=manhattan`) | ~0.84 |
-| **SVC** | optimizado (`kernel=rbf`, `C=2.80`, `class_weight=balanced`) | ~0.88 |
+| KNN | optimizado (`weights=distance`, `n_neighbors=17` y `metric=manhattan`) | ~0.84 |
+| **SVC** | optimizado (`kernel=rbf`, `C=2.80` y `class_weight=balanced`) | ~0.88 |
 | LDA | default | ~0.60 |
 | Naive Bayes | default | ~0.64 |
 | Random Forest | 200 árboles, `max_features` explorado | ~0.70 |
