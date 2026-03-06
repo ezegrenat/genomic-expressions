@@ -4,6 +4,8 @@
 
 Clasificadores supervisado para predecir si una lesión pre-tumoral tiene buen o mal pronóstico, a partir de la expresión de 200 genes medidos con tecnología NGS. Comparamos seis familias de modelos con búsqueda de hiperparámetros, analizamos el trade-off sesgo-varianza de los mejores y evaluamos el modelo final sobre un conjunto held-out. El mejor modelo, que fue SVC con kernel RBF, alcanzó un AUC-ROC de 0.9386 en datos no vistos.
 
+El dataset fue desarrollado por el [CONICET](https://www.conicet.gov.ar/) y el proyecto fue presentado para una competencia dentro de la [Facultad de Ciencias Exactas y Naturales](https://exactas.uba.ar/) de la Universidad de Buenos Aires.
+
 ---
 
 ## Objetivos del proyecto
