@@ -22,7 +22,7 @@ Clasificadores supervisado para predecir si una lesión pre-tumoral tiene buen o
 |-----------|---------|
 | Instancias | 500 muestras de pacientes con lesiones pre-tumorales |
 | Features | 200  |
-| Target | Binario: `1` = buen pronóstico (sin recaída) · `0` = mal pronóstico (con recaída) |
+| Target | Binario: `1` = buen pronóstico (sin recaída) . `0` = mal pronóstico (con recaída) |
 | Desbalanceo | 349 instancias clase 0 y 151 instancias clase 1 |
 
 
