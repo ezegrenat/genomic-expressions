@@ -106,10 +106,10 @@ Un problema que enfrentamos fue la gran cantidad de features (200), que dificult
 
 ## Estructura del repositorio
 
-clasificacion_expresiones_genomicas.ipynb:  notebook con todo el análisis                                                       
-data.csv:                                   dataset original (500 muestras x 200 features + target)                                       desarrollo.csv:                             subconjunto de desarrollo (400 muestras 80% de data.csv)
-control.csv:                                subconjunto held-out (100 muestras, 20% de data.csv)
-10_y_pred_held_out_9386.csv:                predicciones sobre X_held_out externo (AUC 0.9386)
+ - clasificacion_expresiones_genomicas.ipynb:  notebook con todo el análisis                                                       
+ - data.csv:                                   dataset original (500 muestras x 200 features + target)                                       - desarrollo.csv:                             subconjunto de desarrollo (400 muestras 80% de data.csv)
+ - control.csv:                                subconjunto held-out (100 muestras, 20% de data.csv)
+ - 10_y_pred_held_out_9386.csv:                predicciones sobre X_held_out externo (AUC 0.9386)
 
 
 
